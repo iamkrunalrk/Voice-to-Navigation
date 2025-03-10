@@ -64,7 +64,7 @@ Where:
 For command $c$ from input $x$ :
 
 $$
-P(c|x) = \prod_{t=1}^T P(w_t|w_{<t}, x)
+P(c|x) = \prod_{t=1}^T P(w_t|w_{t}, x)
 $$
 
 Where $w_t$ is the t-th token in the JSON command sequence.
