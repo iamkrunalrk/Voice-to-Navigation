@@ -61,7 +61,7 @@ Where:
 - $V$ = Value (JSON templates)
 
 ### 2. Command Probability Distribution
-For command $c$ from input $x$:
+For command $c$ from input $x$ :
 
 $$
 P(c|x) = \prod_{t=1}^T P(w_t|w_{<t}, x)
